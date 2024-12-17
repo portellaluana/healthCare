@@ -26,7 +26,7 @@ healthCare/
 ## Tecnologias Utilizadas
 
 - **React**: Biblioteca principal para a construção do front-end.
-- **Typescript (ES6+)**: Linguagem principal.
+- **Typescript**: Linguagem principal.
 - **HTML5 e CSS3**: Base para estrutura e estilização.
 - **Bootstrap**: Framework para estilização responsiva.
 - **json-server**: Simulação de uma API para manipulação de dados.
