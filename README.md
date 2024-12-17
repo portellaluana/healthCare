@@ -1,5 +1,3 @@
-# AdviceHealth - Teste Desenvolvedor Front-End
-
 ## Introdução
 
 Este projeto é uma solução front-end para um consultório médico, com foco em simplicidade, usabilidade e eficiência. Desenvolvido com **React**, **Typescript**, **HTML**, **CSS**, **Bootstrap** e **json-server**, o projeto foi pensado para oferecer uma experiência gerencial completa, componentização reutilizável e flexibilidade para futuras evoluções.
@@ -9,7 +7,7 @@ Este projeto é uma solução front-end para um consultório médico, com foco e
 O projeto está organizado da seguinte forma:
 
 ```
-AdviceHealth/
+healthCare/
 ├── public/
 ├── src/
 │   ├── components/         # Componentes reutilizáveis (Header, Footer, Cards, etc.)
@@ -28,7 +26,7 @@ AdviceHealth/
 ## Tecnologias Utilizadas
 
 - **React**: Biblioteca principal para a construção do front-end.
-- **Typescript (ES6+)**: Linguagem principal.
+- **Typescript**: Linguagem principal.
 - **HTML5 e CSS3**: Base para estrutura e estilização.
 - **Bootstrap**: Framework para estilização responsiva.
 - **json-server**: Simulação de uma API para manipulação de dados.
@@ -40,8 +38,7 @@ AdviceHealth/
 1. **Clone o repositório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/advicehealth.git
-   cd advicehealth
+   git clone https://github.com/seu-usuario/healthCare.git
    ```
 
 2. **Instale as dependências**:
