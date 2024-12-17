@@ -153,6 +153,7 @@ const Appointment: React.FC = () => {
               <CardDoctors
                 doctors={doctors}
                 onDoctorClick={handleDoctorClick}
+                className="container-doctors"
               />
             </div>
           )}

@@ -66,4 +66,118 @@
   .home-content {
     flex-direction: column !important;
   }
+  .login-container {
+    display: inline-flex;
+    flex-direction: column;
+  }
+}
+
+/* responsividad */
+
+@media (max-width: 768px) {
+  .doctors-container {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .login-container {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .login-container {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .container-appointment {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .col-md-2,
+  .col-md-3,
+  .col-md-7 {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .container-calendar {
+    margin-top: 20px;
+  }
+
+  .container-dashboard {
+    margin-top: 20px;
+  }
+
+  .btn-new-appointment {
+    width: 100%;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .container-calendar,
+  .card-doctors {
+    width: 100%;
+  }
+  .doctors-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .col-md-2,
+  .col-md-7,
+  .col-md-3 {
+    width: 100%;
+  }
+  .login-container {
+    display: inline-flex;
+    flex-direction: column;
+  }
+  .container-dashboard,
+  .container-calendar {
+    margin-bottom: 20px;
+  }
+
+  .btn-new-appointment {
+    width: 100%;
+  }
+  .doctors-container {
+    display: grid !important;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .col-md-2,
+  .col-md-7,
+  .col-md-3 {
+    padding: 0;
+  }
+  .doctors-container {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .container-calendar,
+  .container-dashboard {
+    margin-top: 10px;
+  }
+
+  .btn-new-appointment {
+    font-size: 14px;
+  }
 }
