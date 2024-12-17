@@ -39,7 +39,6 @@ healthCare/
 
    ```bash
    git clone https://github.com/seu-usuario/healthCare.git
-   cd healthCare
    ```
 
 2. **Instale as dependências**:
