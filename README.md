@@ -7,7 +7,7 @@ Este projeto é uma solução front-end para um consultório médico, com foco e
 O projeto está organizado da seguinte forma:
 
 ```
-AdviceHealth/
+healthCare/
 ├── public/
 ├── src/
 │   ├── components/         # Componentes reutilizáveis (Header, Footer, Cards, etc.)
