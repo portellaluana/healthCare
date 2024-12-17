@@ -1,0 +1,13 @@
+.doctors-container {
+  justify-content: space-around;
+}
+
+.doctor-payment {
+  color: var(--background-color) !important;
+}
+.card-doctor {
+  cursor: pointer;
+}
+.card-doctor:hover {
+  border: 1px solid var(--background-color);
+}

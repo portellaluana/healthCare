@@ -1,0 +1,431 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "name": "Dr. Pedro Ivo Campos",
+      "licenseNumber": "123456-SC",
+      "specialty": "Cardiologia",
+      "phone": "48 98422-1300",
+      "photo": "/doctors/pedro-ivo-campos.png",
+      "payment": 350
+    },
+    {
+      "id": "2",
+      "name": "Dra. Antonieta de Barros",
+      "licenseNumber": "86800-SC",
+      "specialty": "Pediatria",
+      "phone": "48 98999-7890",
+      "photo": "/doctors/antonieta-barros.png",
+      "payment": 300
+    },
+    {
+      "id": "3",
+      "name": "Dr. Hercílio Luz Marinho",
+      "licenseNumber": "99999-SC",
+      "specialty": "Ortopedia",
+      "phone": "48 98499-3214",
+      "photo": "/doctors/hercilio-luz-marinho.png",
+      "payment": 400
+    },
+    {
+      "id": "4",
+      "name": "Dra. Rita Maria de Souza",
+      "licenseNumber": "98765-SC",
+      "specialty": "Dermatologia",
+      "phone": "48 98499-1234",
+      "photo": "/doctors/rita-maria-souza.png",
+      "payment": 350
+    },
+    {
+      "id": "5",
+      "name": "Dra. Fernanda Caetano",
+      "licenseNumber": "98723-SC",
+      "specialty": "Gastroenterologia",
+      "phone": "48 98499-9999",
+      "photo": "/doctors/fernanda-caetano.png",
+      "payment": 400
+    },
+    {
+      "id": "6",
+      "name": "Dr. Joaquim Cascaes",
+      "licenseNumber": "96008-SC",
+      "specialty": "Neurologia",
+      "phone": "48 99899-1908",
+      "photo": "/doctors/joaquim-cascaes.png",
+      "payment": 450
+    }
+  ],
+  "patients": [
+    {
+      "id": "1",
+      "name": "Carlos Pereira",
+      "cpf": "12345678901",
+      "birthdate": "1990-05-15",
+      "postCode": "88050-001",
+      "address": "Rua Carlos Daux, 123",
+      "state": "SC",
+      "city": "Florianópolis",
+      "photo": "https://via.placeholder.com/150?text=Carlos+Pereira"
+    },
+    {
+      "id": "2",
+      "name": "Fernanda Souza",
+      "cpf": "98765432100",
+      "birthdate": "1985-07-20",
+      "postCode": "88101-300",
+      "address": "Av. Irineu Bornhausen, 456",
+      "state": "SC",
+      "city": "São José",
+      "photo": "https://via.placeholder.com/150?text=Fernanda+Souza"
+    },
+    {
+      "id": "3",
+      "name": "João Lima",
+      "cpf": "45678912300",
+      "birthdate": "2000-11-10",
+      "postCode": "88032-001",
+      "address": "Rod. Virgílio Várzea, 789",
+      "state": "SC",
+      "city": "Florianópolis",
+      "photo": "https://via.placeholder.com/150?text=Joao+Lima"
+    },
+    {
+      "id": "4",
+      "name": "Ana Clara Martins",
+      "cpf": "55555555555",
+      "birthdate": "1992-03-10",
+      "postCode": "88040-200",
+      "address": "Rua Anita Garibaldi, 123",
+      "state": "SC",
+      "city": "Florianópolis",
+      "photo": "https://via.placeholder.com/150?text=Ana+Clara+Martins"
+    },
+    {
+      "id": "5",
+      "name": "Bruno Oliveira",
+      "cpf": "66666666666",
+      "birthdate": "1995-12-22",
+      "postCode": "88102-400",
+      "address": "Av. Hercílio Luz, 456",
+      "state": "SC",
+      "city": "São José",
+      "photo": "https://via.placeholder.com/150?text=Bruno+Oliveira"
+    },
+    {
+      "id": "6",
+      "name": "Camila Santos",
+      "cpf": "77777777777",
+      "birthdate": "1988-09-05",
+      "postCode": "88030-600",
+      "address": "Rua Esteves Júnior, 789",
+      "state": "SC",
+      "city": "Florianópolis",
+      "photo": "https://via.placeholder.com/150?text=Camila+Santos"
+    },
+    {
+      "id": "7",
+      "name": "Daniela Ribeiro",
+      "cpf": "88888888888",
+      "birthdate": "1999-11-11",
+      "postCode": "88025-300",
+      "address": "Rua Vidal Ramos, 123",
+      "state": "SC",
+      "city": "Florianópolis",
+      "photo": "https://via.placeholder.com/150?text=Daniela+Ribeiro"
+    },
+    {
+      "id": "8",
+      "name": "Eduardo Vieira",
+      "cpf": "99999999999",
+      "birthdate": "1994-04-30",
+      "postCode": "88103-500",
+      "address": "Av. Osmar Cunha, 456",
+      "state": "SC",
+      "city": "São José",
+      "photo": "https://via.placeholder.com/150?text=Eduardo+Vieira"
+    },
+    {
+      "id": "9",
+      "name": "Fábio Almeida",
+      "cpf": "11223344556",
+      "birthdate": "1991-07-07",
+      "postCode": "88035-100",
+      "address": "Rua Felipe Schmidt, 789",
+      "state": "SC",
+      "city": "Florianópolis",
+      "photo": "https://via.placeholder.com/150?text=Fabio+Almeida"
+    },
+    {
+      "id": "10",
+      "name": "Gabriela Ferreira",
+      "cpf": "22334455667",
+      "birthdate": "1980-01-15",
+      "postCode": "88070-200",
+      "address": "Rua Almirante Lamego, 123",
+      "state": "SC",
+      "city": "Florianópolis",
+      "photo": "https://via.placeholder.com/150?text=Gabriela+Ferreira"
+    },
+    {
+      "id": "11",
+      "name": "Henrique Mendes",
+      "cpf": "33445566778",
+      "birthdate": "1983-10-12",
+      "postCode": "88105-300",
+      "address": "Av. Mauro Ramos, 456",
+      "state": "SC",
+      "city": "São José",
+      "photo": "https://via.placeholder.com/150?text=Henrique+Mendes"
+    },
+    {
+      "id": "12",
+      "name": "Isabela Rocha",
+      "cpf": "44556677889",
+      "birthdate": "1997-02-19",
+      "postCode": "88055-400",
+      "address": "Rua Deputado Antônio Edu Vieira, 789",
+      "state": "SC",
+      "city": "Florianópolis",
+      "photo": "https://via.placeholder.com/150?text=Isabela+Rocha"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "1",
+      "doctor": "Dra. Fernanda Caetano",
+      "patient": "Bruno Oliveira",
+      "date": "2024-12-17",
+      "payment": 400,
+      "hour": "10:00",
+      "status": "Agendada"
+    },
+    {
+      "id": "2",
+      "doctor": "Dra. Fernanda Caetano",
+      "patient": "Camila Santos",
+      "date": "2024-12-17",
+      "payment": 400,
+      "hour": "11:00",
+      "status": "Agendada"
+    },
+    {
+      "id": "3",
+      "doctor": "Dra. Rita Maria de Souza",
+      "patient": "Daniela Ribeiro",
+      "date": "2024-12-17",
+      "hour": "17:00",
+      "status": "Agendada",
+      "payment": 350,
+      "paymentMethod": "Cartão de Débito"
+    },
+    {
+      "id": "4",
+      "doctor": "Dr. Pedro Ivo Campos",
+      "patient": "Eduardo Vieira",
+      "date": "2024-12-18",
+      "payment": 350,
+      "hour": "09:00",
+      "status": "Agendada"
+    },
+    {
+      "id": "5",
+      "doctor": "Dra. Antonieta de Barros",
+      "patient": "Fábio Almeida",
+      "date": "2024-12-18",
+      "payment": 300,
+      "hour": "10:00",
+      "status": "Agendada"
+    },
+    {
+      "id": "6",
+      "doctor": "Dra. Rita Maria de Souza",
+      "patient": "Gabriela Ferreira",
+      "date": "2024-12-18",
+      "payment": 350,
+      "hour": "18:00",
+      "status": "Agendada"
+    },
+    {
+      "id": "7",
+      "doctor": "Dra. Fernanda Caetano",
+      "patient": "Henrique Mendes",
+      "date": "2024-12-18",
+      "payment": 400,
+      "hour": "16:00",
+      "status": "Agendada"
+    },
+    {
+      "id": "8",
+      "doctor": "Dr. Joaquim Cascaes",
+      "patient": "Isabela Rocha",
+      "date": "2024-12-19",
+      "payment": 450,
+      "hour": "09:00",
+      "status": "Agendada"
+    },
+    {
+      "id": "9",
+      "doctor": "Dr. Pedro Ivo Campos",
+      "patient": "Ana Clara Martins",
+      "date": "2024-12-19",
+      "payment": 350,
+      "hour": "10:00",
+      "status": "Agendada"
+    },
+    {
+      "id": "10",
+      "doctor": "Dra. Rita Maria de Souza",
+      "patient": "Bruno Oliveira",
+      "date": "2024-12-20",
+      "payment": 350,
+      "hour": "11:00",
+      "status": "Agendada"
+    },
+    {
+      "id": "11",
+      "doctor": "Dr. Joaquim Cascaes",
+      "patient": "Camila Santos",
+      "date": "2024-12-20",
+      "payment": 450,
+      "hour": "13:00",
+      "status": "Agendada"
+    },
+    {
+      "id": "12",
+      "doctor": "Dra. Fernanda Caetano",
+      "patient": "Camila Santos",
+      "date": "2024-12-20",
+      "payment": 400,
+      "hour": "14:00",
+      "status": "Agendada"
+    },
+    {
+      "id": "13",
+      "doctor": "Dr. Hercílio Luz Marinho",
+      "patient": "luana",
+      "date": "2024-12-18",
+      "payment": 400,
+      "hour": "12:00",
+      "status": "Agendado"
+    },
+    {
+      "id": "14",
+      "doctor": "Dr. Hercílio Luz Marinho",
+      "patient": "Roberto Almeida",
+      "date": "2024-12-15",
+      "payment": 400,
+      "hour": "12:00",
+      "status": "Agendado"
+    },
+    {
+      "id": "15",
+      "doctor": "Dr. Hercílio Luz Marinho",
+      "patient": "Marcos Alberto",
+      "date": "2024-12-16",
+      "hour": "12:00",
+      "payment": 400,
+      "status": "Agendado",
+      "Valor": "235"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "2",
+      "name": "Dra. Fernanda Caetano",
+      "message": "Aviso: Novo paciente adicionado à sua agenda para 18-12-24 às 14:00.",
+      "date": "2024-12-18",
+      "hour": "14:00"
+    },
+    {
+      "id": "3",
+      "name": "Dr. Joaquim Cascaes",
+      "message": "Aviso: Novo paciente adicionado à sua agenda para 20-12-24 às 13:00.",
+      "date": "2024-12-20",
+      "hour": "13:00"
+    },
+    {
+      "id": "4",
+      "name": "Dr. Pedro Ivo Campos",
+      "message": "Aviso: Desmarcar todas as consultas do dia",
+      "date": "2024-12-16",
+      "hour": "08:00"
+    },
+    {
+      "id": "5",
+      "name": "Camila Santos",
+      "message": "Lembrete: Ligar para confirmar retorno com Dr. Hercílio Luz.",
+      "date": "2024-12-16",
+      "hour": "09:00"
+    },
+    {
+      "id": "6",
+      "name": "Daniela Ribeiro",
+      "message": "Aviso: Adicionar novo exame no prontuário do paciente.",
+      "date": "2024-12-16",
+      "hour": "15:00"
+    },
+    {
+      "id": "7",
+      "name": "Dra. Rita Maria de Souza",
+      "message": "Lembrete: Verificar agenda de atendimento para 17-12-24.",
+      "date": "2024-12-16",
+      "hour": "12:30"
+    },
+    {
+      "id": "8",
+      "name": "Eduardo Vieira",
+      "message": "Lembrete: Confirmar consulta com Dr. Joaquim Cascaes para 20-12-24 às 11:00.",
+      "date": "2024-12-16",
+      "hour": "16:00"
+    },
+    {
+      "id": "9",
+      "name": "Dr. Pedro Ivo Campos",
+      "message": "Aviso: Revisar documentação de alta do paciente Carlos Pereira.",
+      "date": "2024-12-17",
+      "hour": "10:00"
+    },
+    {
+      "id": "10",
+      "name": "Bruno Oliveira",
+      "message": "Lembrete: Atualizar informações pessoais no sistema.",
+      "date": "2024-12-17",
+      "hour": "14:00"
+    },
+    {
+      "id": "11",
+      "name": "Dra. Fernanda Caetano",
+      "message": "Aviso: Paciente atrasado para consulta agendada às 15:00.",
+      "date": "2024-12-17",
+      "hour": "15:10"
+    },
+    {
+      "id": "12",
+      "name": "Carlos Pereira",
+      "message": "Lembrete: Confirmar exame com Dr. Pedro Ivo Campos para 24-12-18 às 09:30.",
+      "date": "2024-12-18",
+      "hour": "09:30"
+    },
+    {
+      "id": "13",
+      "name": "Henrique Mendes",
+      "message": "Aviso: Encaminhar paciente para consulta com Dra. Rita Maria de Souza.",
+      "date": "2024-12-18",
+      "hour": "11:30"
+    },
+    {
+      "id": "14",
+      "name": "Isabela Rocha",
+      "message": "Lembrete: Confirmar presença para retorno com Dra. Fernanda Caetano.",
+      "date": "2024-12-18",
+      "hour": "17:00"
+    },
+    {
+      "id": "15",
+      "name": "Camila Santos",
+      "message": "Lembrete: Atualizar informações pessoais no sistema.",
+      "date": "2024-12-18",
+      "hour": "14:00"
+    }
+  ]
+}

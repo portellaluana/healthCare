@@ -1,0 +1,7 @@
+.title {
+  font-size: 16px;
+  color: var(--background-color);
+}
+.container-appointment {
+  display: block;
+}

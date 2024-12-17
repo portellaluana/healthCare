@@ -1,0 +1,12 @@
+.header {
+  border-bottom: 1px solid var(--background-color);
+}
+
+.header h1,
+.header p {
+  color: var(--background-color);
+}
+
+.text-logout {
+  color: var(--background-color) !important;
+}

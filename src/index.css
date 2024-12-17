@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap");
+
+:root {
+  font-family: "Maven Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  --primary-color: #5dcfe2;
+  --secondary-color: #4279ff;
+  --background-color: #1f49a0;
+  --text-color: #555555;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.container-dashboard,
+.container-calendar {
+  padding: 40px;
+  border-radius: 8px;
+  border: 1px solid rgb(228, 228, 228);
+  background-color: white;
+}

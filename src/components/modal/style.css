@@ -1,0 +1,18 @@
+.custom-modal-backdrop {
+  background-color: #0404045e !important;
+}
+
+.custom-modal-dialog {
+  background-color: #fff;
+  border-radius: 8px;
+}
+.save-button {
+  color: var(--background-color) !important;
+  border: 1px solid var(--background-color) !important;
+}
+
+.save-button:hover {
+  color: white !important;
+  border: 1px solid var(--background-color) !important;
+  background-color: var(--background-color) !important;
+}
