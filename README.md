@@ -1,5 +1,3 @@
-# AdviceHealth - Teste Desenvolvedor Front-End
-
 ## Introdução
 
 Este projeto é uma solução front-end para um consultório médico, com foco em simplicidade, usabilidade e eficiência. Desenvolvido com **React**, **Typescript**, **HTML**, **CSS**, **Bootstrap** e **json-server**, o projeto foi pensado para oferecer uma experiência gerencial completa, componentização reutilizável e flexibilidade para futuras evoluções.
