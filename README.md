@@ -38,8 +38,8 @@ healthCare/
 1. **Clone o repositório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/advicehealth.git
-   cd advicehealth
+   git clone https://github.com/seu-usuario/healthcare.git
+   cd healthcare
    ```
 
 2. **Instale as dependências**:
